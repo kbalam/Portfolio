@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Pacifico&family=Poppins:wght@600&family=Roboto+Slab:wght@300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/site.webmanifest">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <title>My Portfolio</title>
+</head>
+
+<body id="body">
+  <!-- home section -->
+  <section id="home">
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav-bar">
+        <span class="name"> Bala.</span>
+        <div class="t-button"><button class="togglebutton" id="toggle-button" onclick="toggleSidebar()">☰</button></div>
+        <ul id="nav-list">
+          <li class="nav-items"><a href="#home">Home</a></li>
+          <li class="nav-items"><a href="#about">About</a></li>
+          <li class="nav-items"><a href="#skills">Skills</a></li>
+          <li class="nav-items"><a href="#Projects">Project</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="sidebar" id="mySidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">&times;</a>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#Projects">Project</a>
+    </div>
+    <!-- Header ends -->
+    <main id="main-content">
+      <!-- Hero Section -->
+      <div class="hero-text">
+        <div class="intro">
+          <h1> Hello</h1>
+          <h3>I'm Balamurugan.</h3>
+          <div class="typed-word">
+            <h1><span class="auto-input"></span></h1>
+          </div>
+          <a href="#contact"><button class="btn-contact" role="button">Contact Me</button></a>
+        </div>
+      </div>
+  </section>
+  <!-- Hero section end -->
+  <!-- About section -->
+  <section id="about">
+    <div class="container main">
+      <div class="row">
+        <div class="heading">
+          <span>About Me</span>
+          <h2>Know me more</h2>
+        </div>
+        <div class="col-lg-7  left">
+          <h3>Hi, I'm <span><b>Balamurugan</b></span></h3>
+          <p class="about-text">A dedicated and tech-savvy individual with a BE in Computer Science Engineering
+            searching for a challenging role at a progressive organization that offers immense growth opportunities and
+            to implement my knowledge and skills to contribute to the success of the organization</p>
+        </div>
+        <div class="my-img col-lg-5">
+          <img src="./img/passport size photo.jpg" alt="My Passport size img" class="me">
+        </div>
+      </div>
+      <div class="row info">
+        <div class="col-lg-3">
+          <p style="color: rgb(145, 134, 134);">Name:</p>
+          <p>Balamurugan.K</p>
+        </div>
+        <div class="col-6 col-lg-3">
+          <p style="color: rgb(145, 134, 134);">Mail:</p>
+          <p>Balabm2001@gmail.com</p>
+        </div>
+        <div class="col-6 col-lg-3">
+          <p style="color: rgb(145, 134, 134);">Date of Birth:</p>
+          <p>21/11/2001</p>
+        </div>
+        <div class="col-6 col-lg-3">
+          <p style="color: rgb(145, 134, 134);">From:</p>
+          <p>Tenkasi,Tamilnadu.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About End -->
+  <!-- Resume section -->
+  <section id="skills">
+    <div class="container main">
+      <div class="heading">
+        <span>Resume</span>
+        <h1 class="my-3">My Skills</h1>
+      </div>
+      <div class="col-md-12 right">
+        <p class="fw-500 text-start mb-2">Web Design <span class="float-end">65%</span></p>
+        <div class="progress progress-sm mb-4">
+          <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0"
+            aria-valuemax="100"></div>
+        </div>
+        <p class="fw-500 text-start mb-2">HTML/CSS <span class="float-end">95%</span></p>
+        <div class="progress progress-sm mb-4">
+          <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0"
+            aria-valuemax="100"></div>
+        </div>
+        <p class="fw-500 text-start mb-2">Python <span class="float-end">80%</span></p>
+        <div class="progress progress-sm mb-4">
+          <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+            aria-valuemax="100"></div>
+        </div>
+        <p class="fw-500 text-start mb-2">Google Clouds <span class="float-end">50%</span></p>
+        <div class="progress progress-sm mb-4">
+          <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+            aria-valuemax="100"></div>
+        </div>
+        <p class="fw-500 text-start mb-2">Bootstrap <span class="float-end">99%</span></p>
+        <div class="progress progress-sm mb-4">
+          <div class="progress-bar" role="progressbar" style="width: 99%" aria-valuenow="99" aria-valuemin="0"
+            aria-valuemax="100"></div>
+        </div>
+      </div>
+      <p class="cv"><a href="My_Resume.pdf" class="btn btn-outline-dark shadow-none rounded-0"
+          download="My_Resume.pdf">Download CV <span class="ms-3"><i class="bi bi-cloud-arrow-down-fill"></i></span></a>
+      </p>
+    </div>
+  </section>
+  <!-- Skills end -->
+  <section id="Projects">
+    <div class="container main">
+      <div class="heading">
+        <span>Projects</span>
+        <h1 class="mb-5">Projects I done in University</h1>
+      </div>
+      <div class=" col-lg-12 border-new ps-3">
+        <h3 class="text-5">Implemented AI based Chatbot.</h3>
+        <p class="text-muted">Designed an AI chatbot which is integrated with IBM Watson, the purpose of the model
+          is to provide solution to the customer by analyzing their queries and guide them to
+          create a bank account in efficient way</p>
+        <hr class="my-4">
+        <h3 class="text-5">Implemented Personal Cloud storage using Raspberry Pi.</h3>
+        <p class="text-muted">Customized own cloud storage for user which is created by using Raspberry Pi.
+          It proved a way to store data in our cloud and succeeded the approach to access it in
+          real time from anywhere.
+        </p>
+        <hr class="my-4">
+        <h3 class="text-5">Designed RFID based Biometric Voting Machine.</h3>
+        <p class="text-muted">Restructured electronic voting machine by merging the RFID and fingerprint scanner it
+          updated the voting process with user RFID tag and Fingerprint authentication and made
+          the process more secured.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- Projects end -->
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container main my-10">
+      <h1>Let's get in touch.</h1>
+      <div class="row">
+        <div class="col-lg-3">
+          <ul class="social-icons social-icons-lg justify-content-center justify-content-lg-start   my-icons">
+            <li class="social-icon linkedin"><a href="https://www.linkedin.com/in/kbalam/"><img
+                  src="./icons/linkedin.svg" class="linkedin ic"></a></li>
+            <li class="social-icon facebook"><a href="https://www.instagram.com/bala._.bm/"><img
+                  src="./icons/facebook.svg" class="facebook ic"> </i></a></li>
+            <li class="social-icon instagram"><a href="https://www.instagram.com/bala._.bm/"><img
+                  src="./icons/instagram.svg" class="instagram ic"></a></li>
+            <li class="social-icon github"><a href="https://github.com/kbalam"><img src="./icons/github.svg"
+                  class="twitter ic"></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-9">
+          <form method="POST" id="form">
+
+            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+            <input type="hidden" name="subject" value="New Submission from Web3Forms">
+            <input type="checkbox" name="botcheck" id="" style="display: none;">
+
+            <div class="row g-4">
+              <input type="hidden" name="access_key" value="75c7d76e-2092-4c9f-9d70-3923e9d4d9f7">
+              <div class="col-12">
+                <label class="form-label">What is Your Name:</label>
+                <input name="name" type="text" class="form py-1" required>
+              </div>
+              <div class="col-12">
+                <label class="form-label">Your Email Address:</label>
+                <input name="email" type="email" class="form py-1" required>
+              </div>
+              <div class="col-12">
+                <label class="form-label">How can I Help you?:</label>
+                <textarea name="message" class="form py-1" rows="4" required></textarea>
+              </div>
+              <div class="col-12 text-center text-lg-start">
+                <button id="submit-btn" class="btn btn-dark rounded-0" type="submit">Send<span class="ms-3"><i
+                      class="bi bi-arrow-right-circle"></i></span></button>
+              </div>
+            </div>
+            <div id="result"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact ends -->
+  <!-- Footer section -->
+  </main>
+  <footer class="d-flex flex-wrap align-items-center py-3 my-4 border-top">
+    <div class="container">
+      <div class="col-lg-12 d-flex align-items-center foot-text">
+          <span> © All copyrights reserved.</span>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed(".auto-input", {
+      strings: ["FrontEnd Developer", "Programmer"],
+      typeSpeed: 100,
+      backSpeed: 100,
+      loop: true
+    })
+  </script>
+  <script>
+    function toggleSidebar() {
+      var sidebar = document.getElementById("mySidebar");
+      var blurOverlay = document.createElement('div');
+      blurOverlay.id = 'blur-overlay';
+      blurOverlay.className = 'blur-overlay';
+      document.body.appendChild(blurOverlay);
+
+      if (sidebar.style.width === "200px") {
+        closeSidebar();
+      } else {
+        openSidebar();
+      }
+    }
+
+    function openSidebar() {
+      var sidebar = document.getElementById("mySidebar");
+      var blurOverlay = document.getElementById("blur-overlay");
+
+      sidebar.style.width = "200px";
+      blurOverlay.style.display = "block";
+    }
+
+    function closeSidebar() {
+      var sidebar = document.getElementById("mySidebar");
+      var blurOverlay = document.getElementById("blur-overlay");
+
+      sidebar.style.width = "0";
+      blurOverlay.style.display = "none";
+      document.body.removeChild(blurOverlay); // Remove the overlay to clean up
+    }
+  </script>
+  <script>
+    const form = document.getElementById('form');
+    const result = document.getElementById('result');
+
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const formData = new FormData(form);
+      const object = Object.fromEntries(formData);
+      const json = JSON.stringify(object);
+      result.innerHTML = "Please wait..."
+
+      fetch('https://api.web3forms.com/submit', {
+              method: 'POST',
+              headers: {
+                  'Content-Type': 'application/json',
+                  'Accept': 'application/json'
+              },
+              body: json
+          })
+          .then(async (response) => {
+              let json = await response.json();
+              if (response.status == 200) {
+                  result.innerHTML = json.message;
+              } else {
+                  console.log(response);
+                  result.innerHTML = json.message;
+              }
+          })
+          .catch(error => {
+              console.log(error);
+              result.innerHTML = "Something went wrong!";
+          })
+          .then(function() {
+              form.reset();
+              setTimeout(() => {
+                  result.style.display = "none";
+              }, 3000);
+          });
+      });
+  </script>
+</body>
+
+</html>
