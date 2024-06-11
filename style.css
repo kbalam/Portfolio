@@ -380,5 +380,6 @@ footer{
 
     .main{
         min-height: fit-content;
+        padding-bottom: 10px;
     }
 }
